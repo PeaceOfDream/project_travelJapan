@@ -780,6 +780,10 @@ line-height: 19px;
 	.footer {
 		padding: 60px 0;
 	}
+
+	.footer__menu {
+		margin-bottom: 24px;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -1004,7 +1008,6 @@ line-height: 19px;
 	
 	.footer__menu {
 		width: 50%;
-		margin-bottom: 24px;
 	}
 
 }
@@ -1015,7 +1018,12 @@ line-height: 19px;
 	.header__nav {
 		padding: 75px 30px;
 	}
+	.footer__menu {
+		width: 100%;
+	}
 
 }
+
+
 
 /* media end */
